@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    height: 248%;
+    height: 210vh;
     background-color:black;
     position: relative;
     z-index: -1;
@@ -14,19 +14,15 @@
     padding-bottom: 200px;
     margin-top: 170px;
 }
-.gradient{
-    background: linear-gradient(to bottom, transparent, black);
-    width: 100%;
-    height: 50px;
-}
 body{
     width: 100%;
-    height: 100vh;
+    height: 0vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(59, 23, 15);
     overflow-x: hidden;
+    border: 2px solid red;
 }
 nav{
     z-index: 99;
@@ -78,6 +74,7 @@ nav .left-nav{
     margin-bottom: 20px;
     gap: 30px;
     padding: 30px;
+    z-index: 100;
     width: 80%;
     background: black;
     margin-top: 30px;
@@ -94,6 +91,15 @@ nav .left-nav{
     width: 100%;
     margin-top: 30px;
 }
+.container{
+    width: 100%;
+    height: 270vh;
+    background-color:black;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+    padding-bottom: 200px;
+    margin-top: 170px;}
 }
 .products{
     background: url(images/coffee1.jpg);
