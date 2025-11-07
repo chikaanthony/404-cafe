@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    border:3px solid red;
 }
 .container{
     width: 100%;
@@ -13,11 +14,6 @@
     object-fit: cover;
     padding-bottom: 200px;
     margin-top: 170px;
-}
-.gradient{
-    background: linear-gradient(to bottom, transparent, black);
-    width: 100%;
-    height: 50px;
 }
 body{
     width: 100%;
@@ -82,7 +78,7 @@ nav .left-nav{
     background: black;
     margin-top: 30px;
     border-radius: 10px;
-    z-index: 100;
+    z-index: 200;
 }
 @media(max-width:600px){
     .scroll-bars{
@@ -128,6 +124,7 @@ nav .left-nav{
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
+    z-index:100;
 }
 .products3{
     background: url(images/nathan-dumlao-XOhI_kW_TaM-unsplash.jpg);
@@ -138,6 +135,7 @@ nav .left-nav{
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
+    z-index:100;
 }
 .products4{
     background: url(images/nathan-dumlao-PstGrS7URQQ-unsplash.jpg);
@@ -148,6 +146,7 @@ nav .left-nav{
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
+    z-index:100;
 }
 .products5{
     background: url(images/nathan-dumlao-MGqdeJ7wVew-unsplash.jpg);
@@ -158,6 +157,7 @@ nav .left-nav{
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
+    z-index:100;
 }
 .productsb1{
     background: url(images/images.jpeg);
