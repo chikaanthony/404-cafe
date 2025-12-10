@@ -107,3 +107,17 @@ label{
     box-shadow: none;
     border: 1px solid rgba(255, 255, 255, 0.404);
 }
+@media (max-width:400px) {
+    input{
+        width: 250px;
+    }
+    .google{
+        width: 250px;
+    }
+    p{
+        font-size: 0.7rem
+    };
+    section{
+        column-gap: 2px;
+    }
+}
