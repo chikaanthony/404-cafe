@@ -39,7 +39,7 @@ body{
 div{
     background:white;
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 9px;
 }
 form{
     display: flex;
