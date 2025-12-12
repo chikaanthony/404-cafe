@@ -14,7 +14,6 @@ body{
     padding: 0;
     background: #021429;
     justify-content: center;
-    overflow-x: hidden;
 }
 .sign-up{
     font-size: 1.5rem;
@@ -116,10 +115,11 @@ label{
 }
 @media (max-width:400px) {
     input{
-        width: 200px;
+        width: 240px;
+        height: 15px;
     }
     .google{
-        width: 200px;
+        width: 250px;
     }
     p{
         font-size: 0.7rem
