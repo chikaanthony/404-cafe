@@ -14,7 +14,7 @@ body{
     padding: 0;
     background: #021429;
     justify-content: center;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .sign-up{
     font-size: 1.5rem;
